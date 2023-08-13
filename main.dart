@@ -1,4 +1,7 @@
 import 'control_flow_statement.dart';
+import 'data_type_variable.dart';
+import 'function.dart';
+import 'loop_class.dart';
 
 /// Dart learning
 
@@ -13,7 +16,24 @@ void main() {
   controFlow.findRoute();
 
   ///=================================================================================///
-  ///Dart fallow BODMAS RULE
+  var varClass = DataTypeAndVariables();
+  varClass.printState();
+
+  ///=================================================================================///
+
+  var loopiterator = LoopStructure();
+  loopiterator.forLoop();
+  loopiterator.whileLoop();
+  loopiterator.doWhileLop();
+  loopiterator.loopBreak();
+  loopiterator.continueLoop();
+
+  ///================================================================================///
+  var function = FuntionClass();
+  function.areaCal();
+
+  ///================================================================================///
+  //////Dart fallow BODMAS RULE
   print("------------Bolean-------------");
   //Bolean either its true or fslse
   bool isAdult = true;
@@ -178,6 +198,5 @@ void main() {
   //     return print("Route 2 grant");
 
   //   default:
-  //     return print("Failure case");
-  // }
+  //  return print("Failure case");
 }

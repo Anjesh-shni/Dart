@@ -44,7 +44,7 @@ class ControlFlowStatement {
   int b = 9;
   void findSmallNum() {
     if (a < b) {
-      print("$a is smaller $b");
+      print("$a is smaller than $b");
     } else {
       print("$b is greater than $a");
     }
@@ -52,7 +52,7 @@ class ControlFlowStatement {
 
   ///Also like this, using ternery operator
   void findSmall() {
-    a < b ? print("$a is smller $b") : print("$b is greater than $a");
+    a > b ? print("$a is greater than $b") : print("$b is greater than $a");
   }
 
   ///======================================================================================///
@@ -61,7 +61,7 @@ class ControlFlowStatement {
   //If conditon 1 non-nullable,returns its value;
   //Otherwise,returns the value of expression 2; Example
   String? userName;
-  String userNameDisplay = "userName" ?? "Guest user";
+  // String userNameDisplay = "userName" ?? "Guest user";
   //So basically checking if userName==null then show guest user else show userName:
 
   ///=====================================================================================///
