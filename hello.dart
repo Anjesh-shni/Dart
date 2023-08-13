@@ -1,12 +1,33 @@
-import 'dart_class.dart';
-
 /// Dart learning
 
 void main() {
-  var findAre = DartClass();
-  var an = findAre.findArea(10, 20);
-  print(an);
   print("=====App Started=====\n");
+
+  // var myClass = DartClass();
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   ///Dart fallow BODMAS RULE
   print("------------Bolean-------------");
