@@ -1,7 +1,7 @@
 import 'dart:math';
 
 class ControlFlowStatement {
-  ///@Anjesh-shni===================================================================================///
+  ///@Anjesh-shni==========================================================================///
   var salary = 10000;
   var protionLevel = 20000;
   var studentMark = Random().nextInt(100);
@@ -61,7 +61,24 @@ class ControlFlowStatement {
   //If conditon 1 non-nullable,returns its value;
   //Otherwise,returns the value of expression 2; Example
   String? userName;
-  String userNameDisplay = userName ?? "Guest user";
+  String userNameDisplay = "userName" ?? "Guest user";
+  //So basically checking if userName==null then show guest user else show userName:
 
-  //So basically checking if userName==null then show guest user else show userName
+  ///=====================================================================================///
+  ///Switch case statement
+  var appRoute = "/";
+  void findRoute() {
+    //scenario is being check here, In dart you don't have to put break; keyword like java,
+    // if case match within the scope return result,
+    // eslse check next case, if not found any return default,
+    switch (appRoute) {
+      case "/":
+        return print("Route 1 grant");
+      case "/home":
+        return print("Route 2 grant");
+
+      default:
+        return print("Failure case");
+    }
+  }
 }

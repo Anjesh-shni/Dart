@@ -1,34 +1,18 @@
+import 'control_flow_statement.dart';
+
 /// Dart learning
 
 void main() {
   print("=====App Started=====\n");
+  //@Anjesh-shni======================================================================///
+  var controFlow = ControlFlowStatement();
+  controFlow.salaryMeter();
+  controFlow.salaryMeter();
+  controFlow.findSmallNum();
+  controFlow.findSmall();
+  controFlow.findRoute();
 
- ///=================================================================================///
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  ///=================================================================================///
   ///Dart fallow BODMAS RULE
   print("------------Bolean-------------");
   //Bolean either its true or fslse
