@@ -1,6 +1,6 @@
 import 'control_flow_statement.dart';
 import 'data_type_variable.dart';
-import 'function.dart';
+import 'function_or_methods.dart';
 import 'loop_class.dart';
 
 /// Dart learning
@@ -31,6 +31,9 @@ void main() {
   ///================================================================================///
   var function = FuntionClass();
   function.areaCal();
+  print("the perimeter is ${function.findPerimeter()}");
+  function.name("Anjesh", "Kumar");
+  function.getName("Albert", "Eienstien");
 
   ///================================================================================///
   //////Dart fallow BODMAS RULE
